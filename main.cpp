@@ -7,7 +7,10 @@
 
 #include <cstdio>
 #include <vector>
-
+/*
+ * Aggiungere sempre qualche commento
+ *
+ */
 int parse_tags(char *inp_str, char** tag, std::vector<char *> &fields, std::vector<char *> &values){
 
 	char *cur = 0;
